@@ -2,7 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: system-ui;
 }
 
 /* HEADER */
@@ -111,12 +111,14 @@ header{
     display: flex;
     justify-content: center;
     text-align: center;
+    background: rgb(77 131 109);
+
 }
 
 #saber-mas img{
     border-radius: 100%;
     width: 150px;
-    background: rgb(234, 38, 38);
+    background: rgb(77 131 109);
 }
 
 #saber-mas div{
