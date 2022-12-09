@@ -112,24 +112,32 @@ header{
     justify-content: center;
     text-align: center;
     background: rgb(77 131 109);
-
 }
 
 #saber-mas img{
-    border-radius: 100%;
+    border-radius: 10%;
     width: 150px;
     background: rgb(77 131 109);
 }
 
 #saber-mas div{
-    padding: 30px 30px;
+    padding: 25px 25px 25px 25px;
     background: rgba(77,77,92,0.6);
-    border-radius: 15px;
+    border-radius: 10px;
+    margin: 100px;
     width: 50%;
     
+    }
 
-    
-}
+    .seccion{
+        background: rgb(77 131 109);
+        justify-content: center;
+        display: flex;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+
+
 
 #saber-mas div h4{
     color: #eee;
